@@ -1,0 +1,136 @@
+* {
+    outline: green solid 3px;
+}
+
+body {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+/*ROW SETTINGS*/
+.row {
+    display: flex
+}
+
+/*NAVIGATION BAR*/
+.nav {
+    justify-content: space-between;
+    padding-bottom: 20px;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    font-size: 2.2vh;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #92b2ba;
+    color: white;
+}
+
+.menu-item {
+    justify-content: space-between;
+    margin: 0 11vh;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+/*BANNER IMAGE*/
+.banner {
+    height: 70vh;
+    background-image: url(https://raw.git.generalassemb.ly/AlexMerced/unit_1_html_css_js/main/day_08/homework/flowerbox/imgs/banner.png?token=AAAMQKC26DDWH56UTMDMFGTFOYAJG);
+    background-size: cover;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.name {
+    font-size: 5em;
+    color: #92b2ba;
+    text-shadow: 2px 2px 2px white;
+    padding-right: 2%;
+    background-color: aqua;
+    text-wrap: wrap;
+}
+
+.hero {
+    display: flex;
+    text-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.slogan {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #f0a8bb;
+    background-color: white;
+    width:
+
+}
+
+
+.card {
+    width: 30%;
+    max-width: 100% 100%;
+    min-width: 300px;
+    height: 70vh;
+    background-size: contain;
+    border: 2px black;
+    background-color: grey;
+
+
+}
+
+.cards {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: contain;
+
+}
+
+.one {
+    background-image: url('./flower-1.png')
+}
+
+.two {
+    background-image: url(https://raw.git.generalassemb.ly/AlexMerced/unit_1_html_css_js/main/day_08/homework/flowerbox/imgs/flower-2.png?token=AAAMQKERXHZJAQE4WDNC5I3FO3Q3K)
+}
+
+.three {
+    background-image: url(https://raw.git.generalassemb.ly/AlexMerced/unit_1_html_css_js/main/day_08/homework/flowerbox/imgs/flower-3.png?token=AAAMQKGA6D3H7A6RGND3S6TFO3Q7M)
+}
+
+.four {
+    background-image: url(https://raw.git.generalassemb.ly/AlexMerced/unit_1_html_css_js/main/day_08/homework/flowerbox/imgs/flower-4.png?token=AAAMQKBQWVEMWJVFHDWKL7TFO3RA4)
+}
+
+.five {
+    background-image: url(https://raw.git.generalassemb.ly/AlexMerced/unit_1_html_css_js/main/day_08/homework/flowerbox/imgs/flower-5.png?token=AAAMQKGAOKIOM3EYXWOVIHTFO3RCI)
+}
+
+.six {
+    background-image: url(https://raw.git.generalassemb.ly/AlexMerced/unit_1_html_css_js/main/day_08/homework/flowerbox/imgs/flower-6.png?token=AAAMQKFKR3ZTFL6MTOSREZLFO3RV6)
+}
+
+.seven {
+    background-image: url('./flower-7.png')
+}
+
+.eight {
+    background-image: url(https://raw.git.generalassemb.ly/AlexMerced/unit_1_html_css_js/main/day_08/homework/flowerbox/imgs/flower-8.png?token=AAAMQKCN7JRIIYDNNQHEAF3FO3RFA)
+}
+
+.nine {
+    background-image: url(https://raw.git.generalassemb.ly/AlexMerced/unit_1_html_css_js/main/day_08/homework/flowerbox/imgs/flower-9.png?token=AAAMQKAABFHEQI7TMQBRMYTFO3RG2)
+}
